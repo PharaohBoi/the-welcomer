@@ -49,6 +49,4 @@ client.on("guildMemberAdd", async member => {
 
 client.login(process.env.BOT_TOKEN);
 
-
-
 const mySecret = process.env['BOT_KEY']
