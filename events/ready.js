@@ -1,4 +1,4 @@
 module.exports.run = (client) => {
     console.log(' Subscribe cwkhan ')
-  client.user.setActivity("w!help | cwkhan")
+  client.user.setActivity("with Kivli")
 };
