@@ -1,4 +1,4 @@
 module.exports.run = (client) => {
-    console.log(' Subscribe cwkhan ')
-  client.user.setActivity("death pick you up", { type: "WATCHING" })
+    console.log(' Follow @a.goenks on Instagram ')
+  client.user.setActivity("Instagram @a.goenks", { type: "WATCHING" })
 };
