@@ -19,7 +19,7 @@ module.exports = {
         .addField("Description", command.description || "Not Provided :(")
         .addField("Usage", "`" + command.usage + "`" || "Not Provied")
         .setThumbnail(client.user.displayAvatarURL())
-        .setColor("GREEN")
+        .setColor("RANDOM")
         .setFooter(client.user.username, client.user.displayAvatarURL());
 
       return message.channel.send(embed);
@@ -27,8 +27,8 @@ module.exports = {
       const commands = await client.commands;
 
       let emx = new MessageEmbed()
-        .setDescription("**[Join my support server](https://dsc.gg/kmdevs )**.  | **[WEBSITE ](https://automodbot.ml)** join my server if u got any error")
-        .setColor("GREEN")
+        .setDescription("**[Join my support server](https://dsc.gg/ctl )**")
+        .setColor("RANDOM")
         .setFooter(client.user.username, client.user.displayAvatarURL())
         .setThumbnail(client.user.displayAvatarURL());
 
