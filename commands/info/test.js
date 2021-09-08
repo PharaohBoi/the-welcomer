@@ -6,6 +6,6 @@ module.exports = {
     authorPermission: [],
     ownerOnly: true,
     run: async (client, message, args) => {
-        message.channel.send("https://dsc.gg/cwkhan here is the Support server.");
+        message.channel.send("https://discord.st/ctl here is the Support server.");
     }
 }
